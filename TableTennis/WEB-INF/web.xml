@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_4.xsd"
+	version="2.4">
+
+	<servlet>
+		<servlet-name>RegistPlayer</servlet-name>
+		<servlet-class>servlet.RegistPlayer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistPlayer</servlet-name>
+		<url-pattern>/jsp/RegistPlayer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistTournament</servlet-name>
+		<servlet-class>servlet.RegistTournament</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistTournament</servlet-name>
+		<url-pattern>/jsp/RegistTournament</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistResult</servlet-name>
+		<servlet-class>servlet.RegistResult</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistResult</servlet-name>
+		<url-pattern>/jsp/RegistResult</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistPlayerTournament</servlet-name>
+		<servlet-class>servlet.RegistPlayerTournament</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistPlayerTournament</servlet-name>
+		<url-pattern>/jsp/RegistPlayerTournament</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchPlayer</servlet-name>
+		<servlet-class>servlet.SearchPlayer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchPlayer</servlet-name>
+		<url-pattern>/jsp/SearchPlayer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchTournament</servlet-name>
+		<servlet-class>servlet.SearchTournament</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchTournament</servlet-name>
+		<url-pattern>/jsp/SearchTournament</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchResult</servlet-name>
+		<servlet-class>servlet.SearchResult</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchResult</servlet-name>
+		<url-pattern>/jsp/SearchResult</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchPlayerTournament</servlet-name>
+		<servlet-class>servlet.SearchPlayerTournament</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchPlayerTournament</servlet-name>
+		<url-pattern>/jsp/SearchPlayerTournament</url-pattern>
+	</servlet-mapping>
+
+</web-app>
